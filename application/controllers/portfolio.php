@@ -23,6 +23,17 @@ class Portfolio extends CI_Controller {
 		$this->load->view('contact');
 	}
 
+	public function send()
+	{
+		$this->load->library('email'); // Note: no $config param needed
+		$this->email->from('yubryant27@gmail.com', 'yubryant@gmail.com');
+		$this->email->to('bryant@bryant.com');
+		$this->email->subject('Test email from CI and Gmail');
+		$this->email->message('This is a test.');
+		$this->email->send();
+    redirect('/portfolio/contact');
+}
+
 
 
 }
