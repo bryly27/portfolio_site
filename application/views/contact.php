@@ -31,11 +31,6 @@
 <div class='container'>
 	<div class='container'>
 		<h1>Under Construction</h1>
-		<form action='/portfolio/send' method='post'>
-			<input type='email' name='email' placeholder='email'>
-			<input type='text' name='message' placeholder='message'>
-			<input type='submit' value='submit'>
-		</form>
 	</div>
 </div>
   
