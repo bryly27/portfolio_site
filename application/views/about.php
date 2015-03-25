@@ -20,8 +20,8 @@
     </div>
     <div>
       <ul class="nav navbar-nav navbar-right">
-        <li class='menu_hover'><a style='font-size: 50px' href="/portfolio">Projects</a></li>
-        <li class='menu_hover'><a href="/portfolio/about">About</a></li>
+        <li class='menu_hover'><a href="/portfolio">Projects</a></li>
+        <li class='menu_hover'><a style='font-size: 50px;' href="/portfolio/about">About</a></li>
         <li class='menu_hover'><a href="/portfolio/contact">Contact</a></li>
       </ul>
     </div>
@@ -29,28 +29,7 @@
 </nav>
 
 <div class='container'>
-	<div class='row body'>
-		<div class='col-md-3'>
-			<div id='facebook' class='link'>
-				<h1>f</h1>
-			</div>
-		</div>
-		<div class='col-md-3'>
-			<div id='chat_app' class='link'>
-				<h1>Chat<br> App</h1>
-			</div>
-		</div>
-		<div class='col-md-3'>
-			<div id='mini_trello' class='link'>
-				<h5>Mini<br> Trello</h5>
-			</div>
-		</div>
-		<div class='col-md-3'>
-			<div id='awkyo' class='link'>
-				<h1>Awkyo</h1>
-			</div>
-		</div>
-	</div>
+	<h1>Under Construction</h1>
 </div>
   
  
