@@ -1,0 +1,79 @@
+body {
+	/*background-image: url('../images/brickwall.png');*/
+	background-color: black;
+}
+.navbar {
+	border-radius: 0;
+	background-color: black;
+	border-bottom: 1px solid silver;
+}
+.container-fluid {
+	background-color: black;
+}
+.profile_photo {
+	width: 120px;
+}
+.body {
+	padding: 10px;
+	margin-top: 100px;
+}
+.menu_hover:hover {
+	opacity: .9;
+	font-size: 50px;
+}
+#projects {
+	font-size: 50px;
+}
+
+.link {
+	width: 200px;
+	height: 200px;
+	background-color: blue;
+	border-radius: 50%;
+	border: 5px solid white;
+	text-align: center;
+}
+	.link:hover {
+		opacity: .8;
+		transform: rotate(10deg);
+	}
+
+#facebook {
+	color: white;
+	background-color: #48649F;
+}
+	#facebook h1 {
+		font-size: 145px;
+		text-shadow: 4px 4px 3px rgba(0,0,0,0.1); 
+	}
+
+#chat_app {
+	color: white;
+	background-color: #ce5252;
+}
+	#chat_app h1 {
+		font-size: 50px;
+		margin-top: 30px;
+		text-shadow: 4px 4px 3px rgba(0,0,0,0.1); 
+	}
+
+#awkyo {
+	color: white;
+	background-color: #6dd341;
+}
+		#awkyo h1 {
+			font-size: 50px;
+			margin-top: 60px;
+			text-shadow: 4px 4px 3px rgba(0,0,0,0.1); 
+		}
+#mini_trello {
+	background-color: #e8af53;
+	color: white;
+}
+	#mini_trello h5{
+		font-size: 50px;
+		margin-top: 30px;
+		/*font: 60px/0.8 'Great Vibes', Helvetica, sans-serif;*/
+	  color: white;
+	  text-shadow: 4px 4px 3px rgba(0,0,0,0.1); 
+	}
