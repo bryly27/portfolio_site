@@ -3,6 +3,7 @@
 <head>
   <meta charset="utf-8">
   <title>Bryant Yu</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
@@ -80,15 +81,22 @@
 	<nav class="navbar navbar-inverse">
 	  <div class="container-fluid">
 	    <div class="navbar-header">
+	    	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>                        
+	      </button>
 	      <a class="navbar-brand" href="/portfolio">Bryant Yu | Web Developer</a>
 	    </div>
-	    <div>
-	      <ul class="nav navbar-nav navbar-right">
-	        <li data-menuanchor="page1" class=' active menu_hover'><a href="#page1">Projects</a></li>
-	        <li data-menuanchor="page2" class='menu_hover'><a href="#page2">About</a></li>
-	        <li data-menuanchor="page3" class='menu_hover'><a href="#page3">Contact</a></li>
-	      </ul>
-	    </div>
+	    <div class="collapse navbar-collapse" id="myNavbar">
+		    <div>
+		      <ul class="nav navbar-nav navbar-right">
+		        <li data-menuanchor="page1" class=' active menu_hover'><a href="#page1">Projects</a></li>
+		        <li data-menuanchor="page2" class='menu_hover'><a href="#page2">About</a></li>
+		        <li data-menuanchor="page3" class='menu_hover'><a href="#page3">Contact</a></li>
+		      </ul>
+		    </div>
+		  </div>
 	  </div>
 	</nav>
 </div>
@@ -107,22 +115,22 @@
 	    <div class="section" id="section1">
 	    	<div class='container'>
 	    		<div class='row body'>
-	    			<div class='col-md-3'>
+	    			<div class='col-sm-3 col-md-3'>
 	    				<div id='facebook' class='link'>
 	    					<h1>f</h1>
 	    				</div>
 	    			</div>
-	    			<div class='col-md-3'>
+	    			<div class='col-md-3 col-sm-3'>
 	    				<div id='chat_app' class='link'>
 	    					<h1>Chat<br> App</h1>
 	    				</div>
 	    			</div>
-	    			<div class='col-md-3'>
+	    			<div class='col-md-3 col-sm-3'>
 	    				<div id='mini_trello' class='link'>
 	    					<h5>Mini<br> Trello</h5>
 	    				</div>
 	    			</div>
-	    			<div class='col-md-3'>
+	    			<div class='col-md-3 col-sm-3'>
 	    				<div id='awkyo' class='link'>
 	    					<h1>Awkyo</h1>
 	    				</div>
