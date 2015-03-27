@@ -25,7 +25,7 @@
 		$(document).ready(function() {
 	    	$('#pagepiling').pagepiling({
 	    		menu: '#menu',
-	    		anchors: ['page1', 'page2', 'page3'],
+	    		anchors: ['home', 'facebook_clone', 'chat_app', 'mini_trello', 'awkyo', 'about', 'contact'],
 	    		navigation: {
 		            'textColor': '#f2f2f2',
 		            'bulletsColor': '#ccc',
@@ -67,48 +67,56 @@
 	#section1{
 		background-color: black;
 	}
+
+	#facebook_clone {
+		background-color: #3A5795;
+	}
+
+	#chat_app {
+		background-color: #ce5252;
+	}
+
+	#mini_trello {
+		background-color: #e8af53;
+	}
+
+	#awkyo {
+		background-color: #6dd341;
+	}
+
 	#section2{
-		background-color: red;
+		background-color: black;
 	}
 	#section3{
-		background-color: orange;
+		background-color: silver;
 	}
     </style>
 
 </head>
 <body>
-<div id='menu'>
-	<nav class="navbar navbar-inverse">
-	  <div class="container-fluid">
-	    <div class="navbar-header">
-	    	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-	        <span class="icon-bar"></span>
-	        <span class="icon-bar"></span>
-	        <span class="icon-bar"></span>                        
-	      </button>
-	      <a class="navbar-brand" href="/portfolio">Bryant Yu | Web Developer</a>
-	    </div>
-	    <div class="collapse navbar-collapse" id="myNavbar">
-		    <div>
-		      <ul class="nav navbar-nav navbar-right">
-		        <li data-menuanchor="page1" class=' active menu_hover'><a href="#page1">Projects</a></li>
-		        <li data-menuanchor="page2" class='menu_hover'><a href="#page2">About</a></li>
-		        <li data-menuanchor="page3" class='menu_hover'><a href="#page3">Contact</a></li>
-		      </ul>
+	<div id='menu'>
+		<nav class="navbar navbar-inverse">
+		  <div class="container-fluid">
+		    <div class="navbar-header">
+		    	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>                        
+		      </button>
+		      <a class="navbar-brand" href="/">Bryant Yu | Web Developer</a>
 		    </div>
+		    <div class="collapse navbar-collapse" id="myNavbar">
+			    <div>
+			      <ul class="nav navbar-nav navbar-right">
+			        <li data-menuanchor="page1" class=' active menu_hover'><a href="#home">Projects</a></li>
+			        <li data-menuanchor="page2" class='menu_hover'><a href="#about">About</a></li>
+			        <li data-menuanchor="page3" class='menu_hover'><a href="#contact">Contact</a></li>
+			      </ul>
+			    </div>
+			  </div>
 		  </div>
-	  </div>
-	</nav>
-</div>
-
-<!-- <div id='menu'>
-	<a class="navbar-brand" href="/portfolio">Bryant Yu | Web Developer</a>
-	<ul class="nav navbar-nav navbar-right">
-		<li data-menuanchor="page1" class="active menu_hover"><a href="#page1">Portfolio</a></li>
-		<li data-menuanchor="page2" class='menu_hover'><a href="#page2">About</a></li>
-		<li data-menuanchor="page3" class='menu_hover'><a href="#page3">Contact</a></li>
-	</ul>
-</div> -->
+		</nav>
+	</div>
 
 	<div id="pagepiling">
 
@@ -117,26 +125,50 @@
 	    		<div class='row body'>
 	    			<div class='col-sm-3 col-sm-3 col-xs-6'>
 	    				<div id='facebook' class='link'>
-	    					<h1>f</h1>
+	    					<a href='#facebook_clone'>
+	    						<h1>f</h1>
+	    					</a>
 	    				</div>
 	    			</div>
 	    			<div class='col-md-3 col-sm-3 col-xs-6'>
 	    				<div id='chat_app' class='link'>
-	    					<h1>Chat<br> App</h1>
+	    					<a href='#chat_app'>
+	    						<h1>Chat<br> App</h1>
+	    					</a>
 	    				</div>
 	    			</div>
 	    			<div class='col-md-3 col-sm-3 col-xs-6'>
 	    				<div id='mini_trello' class='link'>
-	    					<h5>Mini<br> Trello</h5>
+	    					<a href='#mini_trello'>
+	    						<h5>Mini<br> Trello</h5>
+	    					</a>
 	    				</div>
 	    			</div>
 	    			<div class='col-md-3 col-sm-3 col-xs-6'>
 	    				<div id='awkyo' class='link'>
-	    					<h1>Awkyo</h1>
+	    					<a href='#awkyo'>
+	    						<h1>Awkyo</h1>
+	    					</a>
 	    				</div>
 	    			</div>
 	    		</div>
 	    	</div>
+	    </div>
+
+	    <div class='section' id='facebook_clone'>
+
+	    </div>
+
+	    <div class='section' id='chat_app'>
+
+	    </div>
+
+	    <div class='section' id='mini_trello'>
+
+	    </div>
+
+	    <div class='section' id='awkyo'>
+
 	    </div>
 
 	    <div class="section" id="section2">

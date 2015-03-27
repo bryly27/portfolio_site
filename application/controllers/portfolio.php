@@ -5,7 +5,6 @@ class Portfolio extends CI_Controller {
 	public function __construct()
 	{
 		parent::__construct();
-		// $this->output->enable_profiler();
 	}
 
 	public function index()
@@ -13,15 +12,6 @@ class Portfolio extends CI_Controller {
 		$this->load->view('main');
 	}
 
-	public function about()
-	{
-		$this->load->view('about');
-	}
-
-	public function contact()
-	{
-		$this->load->view('contact');
-	}
 }
 
 //end of main controller
