@@ -115,22 +115,22 @@
 	    <div class="section" id="section1">
 	    	<div class='container'>
 	    		<div class='row body'>
-	    			<div class='col-sm-3 col-md-3'>
+	    			<div class='col-sm-3 col-sm-3 col-xs-6'>
 	    				<div id='facebook' class='link'>
 	    					<h1>f</h1>
 	    				</div>
 	    			</div>
-	    			<div class='col-md-3 col-sm-3'>
+	    			<div class='col-md-3 col-sm-3 col-xs-6'>
 	    				<div id='chat_app' class='link'>
 	    					<h1>Chat<br> App</h1>
 	    				</div>
 	    			</div>
-	    			<div class='col-md-3 col-sm-3'>
+	    			<div class='col-md-3 col-sm-3 col-xs-6'>
 	    				<div id='mini_trello' class='link'>
 	    					<h5>Mini<br> Trello</h5>
 	    				</div>
 	    			</div>
-	    			<div class='col-md-3 col-sm-3'>
+	    			<div class='col-md-3 col-sm-3 col-xs-6'>
 	    				<div id='awkyo' class='link'>
 	    					<h1>Awkyo</h1>
 	    				</div>
