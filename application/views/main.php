@@ -8,11 +8,9 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
-
 	<link rel="stylesheet" type="text/css" href="/assets/css/scroll.css" />
 	<link rel="stylesheet" type="text/css" href="/assets/css/jquery.pagepiling.css" />
 	<script type="text/javascript" src="/assets/js/jquery.pagepiling.min.js"></script>
-
 	<script type="text/javascript" src='/assets/js/sound.js'></script>
   <script type="text/javascript" src='/assets/js/jquery.js'></script>
   <link rel="stylesheet" type="text/css" href="/assets/css/main.css">
@@ -29,7 +27,10 @@
 		        <span class="icon-bar"></span>
 		        <span class="icon-bar"></span>                        
 		      </button>
-		      <a class="navbar-brand" href="/">Bryant Yu | Web Developer</a>
+    			
+		      <a class="navbar-brand" href="/">
+		      	Bryant Yu | Web Developer
+		      </a>
 		    </div>
 		    <div class="collapse navbar-collapse" id="myNavbar">
 			    <div>

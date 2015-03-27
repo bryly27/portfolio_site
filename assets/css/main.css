@@ -3,21 +3,21 @@ body {
 }
 .navbar {
 	border-radius: 0;
-	background-color: black;
+	background-color: white;
 	border-bottom: 1px solid silver;
 	margin-bottom: 0px;
 }
 .container-fluid {
-	background-color: black;
+	background-color: #0f0f0f;
 }
 .profile_photo {
 	width: 120px;
 }
 .body {
 	padding: 10px;
-	margin-top: 100px;
+	margin-top: 15px;
 }
-.menu_hover:hover {
+.menu_hover a:hover {
 	opacity: .9;
 	font-size: 50px;
 }
@@ -74,7 +74,10 @@ body {
 	  text-shadow: 4px 4px 3px rgba(0,0,0,0.1); 
 	}
  
- #contact {
- 	padding: 30px;
- }
+#contact {
+	padding: 30px;
+}
+.navbar-brand {
+	margin: 0;
+}
 
