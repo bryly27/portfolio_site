@@ -29,6 +29,7 @@ a h1 {
 	display:block;
 }
 #menu li.active a{
+	font-size: 50px;
 	color: white;
 }
 #menu{

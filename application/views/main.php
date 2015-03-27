@@ -108,9 +108,9 @@
 		    <div class="collapse navbar-collapse" id="myNavbar">
 			    <div>
 			      <ul class="nav navbar-nav navbar-right">
-			        <li data-menuanchor="page1" class=' active menu_hover'><a href="#home">Projects</a></li>
-			        <li data-menuanchor="page2" class='menu_hover'><a href="#about">About</a></li>
-			        <li data-menuanchor="page3" class='menu_hover'><a href="#contact">Contact</a></li>
+			        <li data-menuanchor="home" class=' active menu_hover'><a href="#home">Projects</a></li>
+			        <li data-menuanchor="about" class='menu_hover'><a href="#about">About</a></li>
+			        <li data-menuanchor="contact" class='menu_hover'><a href="#contact">Contact</a></li>
 			      </ul>
 			    </div>
 			  </div>
