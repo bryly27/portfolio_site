@@ -1,0 +1,39 @@
+#section1,
+#section2,
+#section3,
+#facebook_clone,
+#chat_app,
+#mini_trello,
+#awkyo,
+#about,
+#contact{
+	background-size: cover;
+	padding: 30px;
+}
+
+#section1{
+	background-color: black;
+}
+
+#facebook_clone {
+	background-color: #3A5795;
+}
+
+#chat_app {
+	background-color: #ce5252;
+}
+
+#mini_trello {
+	background-color: #e8af53;
+}
+
+#awkyo {
+	background-color: #6dd341;
+}
+
+#about{
+	background-color: black;
+}
+#contact{
+	background-color: silver;
+}

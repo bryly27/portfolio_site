@@ -16,83 +16,9 @@
 	<script type="text/javascript" src='/assets/js/sound.js'></script>
   <script type="text/javascript" src='/assets/js/jquery.js'></script>
   <link rel="stylesheet" type="text/css" href="/assets/css/main.css">
+  <link rel="stylesheet" type="text/css" href="/assets/css/sections.css">
 </head>
-<body>
 
-<script type="text/javascript">
-		var deleteLog = false;
-
-		$(document).ready(function() {
-	    	$('#pagepiling').pagepiling({
-	    		menu: '#menu',
-	    		anchors: ['home', 'facebook_clone', 'chat_app', 'mini_trello', 'awkyo', 'about', 'contact'],
-	    		navigation: {
-		            'textColor': '#f2f2f2',
-		            'bulletsColor': '#ccc',
-		            'position': 'right',
-		            // 'tooltips': ['Page 1', 'Page 2', 'Page 3', 'Page 4']
-		        }
-			});
-	    });
-    </script>
-
-    <style>
-    /* Style for our header texts
-	* --------------------------------------- */
-/*	h1{
-		font-size: 5em;
-		font-family: arial,helvetica;
-		color: #fff;
-		margin:0;
-		padding:0;
-	}*/
-
-	/* Centered texts in each section
-	* --------------------------------------- */
-/*	.section{
-		text-align:center;
-	}*/
-
-
-	/* Backgrounds will cover all the section
-	* --------------------------------------- */
-	#section1,
-	#section2,
-	#section3{
-		background-size: cover;
-	}
-
-	/* Defining each section background and styles
-	* --------------------------------------- */
-	#section1{
-		background-color: black;
-	}
-
-	#facebook_clone {
-		background-color: #3A5795;
-	}
-
-	#chat_app {
-		background-color: #ce5252;
-	}
-
-	#mini_trello {
-		background-color: #e8af53;
-	}
-
-	#awkyo {
-		background-color: #6dd341;
-	}
-
-	#section2{
-		background-color: black;
-	}
-	#section3{
-		background-color: silver;
-	}
-    </style>
-
-</head>
 <body>
 	<div id='menu'>
 		<nav class="navbar navbar-inverse">
@@ -156,27 +82,34 @@
 	    </div>
 
 	    <div class='section' id='facebook_clone'>
-
+  	 		<h1>Facebook Clone</h1>
+  			<h2>Under Construction</h2>
 	    </div>
 
 	    <div class='section' id='chat_app'>
-
+    	 	<h1>Chat App</h1>
+  			<h2>Under Construction</h2>
 	    </div>
 
 	    <div class='section' id='mini_trello'>
-
+				<h1>Mini Trello</h1>
+	   		<h2>Under Construction</h2>
 	    </div>
 
 	    <div class='section' id='awkyo'>
-
+	    	<h1>Awkyo</h1>
+	   		<h2>Under Construction</h2>
 	    </div>
 
-	    <div class="section" id="section2">
-
+	    <div class="section" id="about">
+	    	<h1>Under Construction</h1>
 	    </div>
 
-	    <div class="section" id="section3">
-	   
+	    <div class="section" id="contact">
+	   		<h1>Bryant Yu</h1>
+	   		<h2>Email: <a href='mailto:byu@codingdojo.com'>byu@codingdojo.com</a></h2>
+	   		<h2>LinkedIn: <a href="https://www.linkedin.com/in/yubryant">linkedin.com/in/yubryant</a></h2>
+	   		<h2>Github: <a href='https://www.github.com/bryly27'>github.com/bryly27</a></h2>
 	    </div>
 
 	</div> 
