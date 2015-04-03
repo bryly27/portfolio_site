@@ -91,9 +91,15 @@
 	    </div>
 
 	    <div class='section container-fluid' id='chat_app'>
-	    	<p>A simple chatting application that allows users to join and chat with others. All updates happen in real time using sockets. Open the app in two windows and see how it interacts. <a href='http://54.183.186.0' target='_blank'>Click here</a> to open Chat App in a new window.</p>
-	    	<p>Built with: Express.js, Node.js, Socket.io, HTML, CSS, Bootstrap</p>
-  			<iframe src="http://54.183.186.0" style='position: absolute; height: 60%; width: 60%;'></iframe>
+	    	<div class='row section_row'>
+	    		<div class='col-md-3 col-md-offset-1'>
+			    	<p>A simple chatting application that allows users to join and chat with others. All updates happen in real time using sockets. Open the app in two windows and see how it interacts. <a href='http://54.183.186.0' target='_blank'>Click here</a> to open Chat App in a new window.</p>
+			    	<p>Built with: Express.js, Node.js, Socket.io, HTML, CSS, Bootstrap</p>
+			    </div>
+			    <div class='col-md-6 col-md-offset-1 iframe'>
+						<iframe src="http://54.183.186.0" style='height: 100%; width: 90%'></iframe>
+					</div>
+	    	</div>
 	    </div>
 
 	    <div class='section' id='mini_trello'>
