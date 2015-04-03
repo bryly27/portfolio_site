@@ -93,9 +93,7 @@
 	    <div class='section' id='chat_app'>
 	    	<p>A simple chatting application that allows users to join and chat with others. All updates happen in real time using sockets. Open the app in two windows and see how it interacts.</p>
 	    	<p>Built with: Express.js, Node.js, Socket.io, HTML, CSS, Bootstrap</p>
-  			<iframe src="http://54.183.186.0">
-
-  			</iframe>
+  			<iframe src="http://54.183.186.0"></iframe>
 	    </div>
 
 	    <div class='section' id='mini_trello'>
