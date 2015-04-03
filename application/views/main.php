@@ -87,13 +87,15 @@
   	 		<div class='section_content'>
 	  	 		<h1>Facebook Clone</h1>
 	  			<h2>Under Construction</h2>
-	  			<h4>A social media site that allows users to connect with other users. Once users register and log in, they can share photos as well as leave posts and comments on other users wall.</h4>
 	  		</div>
 	    </div>
 
 	    <div class='section' id='chat_app'>
-    	 	<h1>Chat App</h1>
-  			<h2>Under Construction</h2>
+	    	<p>A simple chatting application that allows users to join and chat with others. All updates happen in real time using sockets. Open the app in two windows and see how it interacts.</p>
+	    	<p>Built with: Express.js, Node.js, Socket.io, HTML, CSS, Bootstrap</p>
+  			<iframe src="http://54.183.186.0">
+
+  			</iframe>
 	    </div>
 
 	    <div class='section' id='mini_trello'>
