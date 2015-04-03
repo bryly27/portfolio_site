@@ -21,6 +21,9 @@
 #chat_app {
 	background-color: #ce5252;
 }
+	#chat_app iframe {
+		margin-top: 20px;
+	}
 
 #mini_trello {
 	background-color: #e8af53;
