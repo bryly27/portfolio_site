@@ -93,7 +93,7 @@
 	    <div class='section container-fluid' id='chat_app'>
 	    	<div class='row section_row'>
 	    		<div class='col-md-3 col-md-offset-1'>
-			    	<p>A simple chatting application that allows users to join and chat with others. All updates happen in real time using sockets. Open the app in two windows and see how it interacts. <a href='http://54.183.186.0' target='_blank'>Click here</a> to open Chat App in a new window.</p>
+			    	<p>A simple chatting application that allows users to join and chat with others. All updates happen in real time using sockets. Open the app in two windows and see how it interacts. Best viewed on Google Chrome<a href='http://54.183.186.0' target='_blank'>Click here</a> to open Chat App in a new window.</p>
 			    	<p>Built with: Express.js, Node.js, Socket.io, HTML, CSS, Bootstrap</p>
 			    </div>
 			    <div class='col-md-6 col-md-offset-1 iframe'>
